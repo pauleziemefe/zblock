@@ -1,14 +1,12 @@
 const hre = require("hardhat");
 
 async function main() {
-  const Lock = await hre.ethers.getContractFactory("Lock");
-  const lock = await Lock.deploy();
+  const ZBlock = await hre.ethers.getContractFactory("ZBlock");
+  const zBlock = await ZBlock.deploy();
 
-  await lock.deployed();
+  await zBlock.deployed();
 
-  console.log(
-    `Lock with 1 ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}`
-  );
+  console.log(`Contract Address: ${zBlock.address}`);
 }
 
 main().catch((error) => {

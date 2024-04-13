@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect, useState, useContext } from "react";
+//Internal Imports
+import { ZBlockContext } from "../context/ZBlockContext";
 
-const Z_Block = () => {
-  return <div>Z_Block</div>;
+const ZBlock = () => {
+  const {} = useContext(ZBlockContext);
+  return <div>Hey</div>;
 };
 
-export default Z_Block;
+export default ZBlock;
