@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo.jpg";
 import close from "./close.png";
 import open from "./open.png";
 import search from "./search.png";

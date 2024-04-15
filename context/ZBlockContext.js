@@ -125,6 +125,8 @@ export const ZBlockProvider = ({ children }) => {
         addFriends,
         sendMessage,
         readUser,
+        connectWallet,
+        CheckIfWalletConnected,
         account,
         userName,
         friendLists,
